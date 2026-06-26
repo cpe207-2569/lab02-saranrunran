@@ -20,12 +20,12 @@ hr {
 
 p {
   font-family: "Noto Sans Thai", sans-serif;
-  font-size: small;
+  font-size: normal;
   text-align: center;
 }
 
 .name {
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Noto Sans Thai", sans-serif;
   color: #052C89;
   text-align: center;
 }
@@ -38,33 +38,24 @@ img {
 
 .menu {
   font-family: "Noto Sans Thai", sans-serif;
-  font-weight: 250;
+  color: #052C89;
+  font-weight: 500;
   font-size: small;
   gap: 1%;
-
-  overflow: hidden;
-  position: fixed;
-  bottom: 10px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
-.button {
-  padding: 1.2%;
-  background-color: #052C89;
-  border-radius: 15px;
-
+.menu a {
   text-decoration: none;
-  color: #ffffff;
+  color: #052C89;
 }
 
-.button:hover {
-  background-color: #707070;
-  transition: 0.25s;
+.menu a:hover {
+  text-decoration: underline;
+  color: #868690;
 }
 
-.skill {
+.tab {
   font-family: "Limelight", sans-serif;
 }
 
@@ -75,10 +66,20 @@ img {
   border: #052C89;
   border-style: solid;
   border-radius: 15px;
-  width: 30%;
+  width: 40%;
   margin: auto;
 }
 
 .box p {
   text-align: start;
+}
+
+.mail {
+  text-decoration: none;
+  color: #000000;
+}
+
+.mail:hover {
+  text-decoration: underline;
+  color: #052C89;
 }
