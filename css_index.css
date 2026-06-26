@@ -1,13 +1,13 @@
-.gasoek-one-regular {
-  font-family: "Gasoek One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.julius {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: medium;
+  color: #052C89;
 }
 
-h1 {
+.header {
   color: #052C89;
-  font-family: "Gasoek One", sans-serif;
-  font-size: 300%;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -18,27 +18,67 @@ hr {
   background-color: #052C89;
 }
 
+p {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+.name {
+  font-family: "Julius Sans One", sans-serif;
+  color: #052C89;
+  text-align: center;
+}
+
 img {
-  height: 250px;
+  width: 350px;
   display: block;
   margin: auto;
 }
 
 .menu {
   font-family: "Noto Sans Thai", sans-serif;
-  font-weight: 500;
-
+  font-weight: 250;
+  font-size: small;
   gap: 1%;
+
+  overflow: hidden;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 15px;
 }
 
 .button {
   padding: 1.2%;
-  background-image: linear-gradient(to right, #052C89, #0a2d7e);
+  background-color: #052C89;
   border-radius: 15px;
 
   text-decoration: none;
   color: #ffffff;
+}
+
+.button:hover {
+  background-color: #707070;
+  transition: 0.25s;
+}
+
+.skill {
+  font-family: "Limelight", sans-serif;
+}
+
+.box {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-size: small;
+  padding: 1.2%;
+  border: #052C89;
+  border-style: solid;
+  border-radius: 15px;
+  width: 30%;
+  margin: auto;
+}
+
+.box p {
+  text-align: start;
 }
